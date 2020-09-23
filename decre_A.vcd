@@ -1,0 +1,28 @@
+$date
+	Sat May 16 02:07:04 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decre_A_t $end
+$scope module a0 $end
+$var wire 8 ! a [7:0] $end
+$var wire 8 " out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1001 "
+b1010 !
+$end
+#50
+b111001 "
+b111010 !
+#100
+b10101101 "
+b10101110 !
+#150

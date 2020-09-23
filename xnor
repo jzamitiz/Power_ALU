@@ -1,0 +1,129 @@
+#! /opt/local/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x7f9906504d30 .scope module, "xnor_t8bit" "xnor_t8bit" 2 3;
+ .timescale 0 0;
+v0x7f9906605c00_0 .var "a", 7 0;
+v0x7f9906605cd0_0 .var "b", 7 0;
+v0x7f9906605d60_0 .net "out", 7 0, L_0x7f9906607270;  1 drivers
+S_0x7f9906504e90 .scope module, "o1" "xnor_8bit" 2 8, 3 2 0, S_0x7f9906504d30;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 8 "out"
+    .port_info 1 /INPUT 8 "a"
+    .port_info 2 /INPUT 8 "b"
+L_0x7f9906605df0 .functor XNOR 1, L_0x7f9906605ec0, L_0x7f9906605fe0, C4<0>, C4<0>;
+L_0x7f9906606100 .functor XNOR 1, L_0x7f9906606170, L_0x7f9906606250, C4<0>, C4<0>;
+L_0x7f9906606330 .functor XNOR 1, L_0x7f9906606420, L_0x7f99066065b0, C4<0>, C4<0>;
+L_0x7f99066066d0 .functor XNOR 1, L_0x7f9906606740, L_0x7f9906606860, C4<0>, C4<0>;
+L_0x7f9906606940 .functor XNOR 1, L_0x7f99066069b0, L_0x7f9906606ae0, C4<0>, C4<0>;
+L_0x7f9906606b80 .functor XNOR 1, L_0x7f9906606c10, L_0x7f9906606d50, C4<0>, C4<0>;
+L_0x7f9906606e30 .functor XNOR 1, L_0x7f9906606ee0, L_0x7f9906606500, C4<0>, C4<0>;
+L_0x7f99066070c0 .functor XNOR 1, L_0x7f99066074d0, L_0x7f99066075b0, C4<0>, C4<0>;
+v0x7f9906504ff0_0 .net *"_s1", 0 0, L_0x7f9906605df0;  1 drivers
+v0x7f9906604850_0 .net *"_s11", 0 0, L_0x7f9906606170;  1 drivers
+v0x7f9906604910_0 .net *"_s13", 0 0, L_0x7f9906606250;  1 drivers
+v0x7f99066049d0_0 .net *"_s15", 0 0, L_0x7f9906606330;  1 drivers
+v0x7f9906604a80_0 .net *"_s18", 0 0, L_0x7f9906606420;  1 drivers
+v0x7f9906604b70_0 .net *"_s20", 0 0, L_0x7f99066065b0;  1 drivers
+v0x7f9906604c20_0 .net *"_s22", 0 0, L_0x7f99066066d0;  1 drivers
+v0x7f9906604cd0_0 .net *"_s25", 0 0, L_0x7f9906606740;  1 drivers
+v0x7f9906604d80_0 .net *"_s27", 0 0, L_0x7f9906606860;  1 drivers
+v0x7f9906604e90_0 .net *"_s29", 0 0, L_0x7f9906606940;  1 drivers
+v0x7f9906604f40_0 .net *"_s32", 0 0, L_0x7f99066069b0;  1 drivers
+v0x7f9906604ff0_0 .net *"_s34", 0 0, L_0x7f9906606ae0;  1 drivers
+v0x7f99066050a0_0 .net *"_s36", 0 0, L_0x7f9906606b80;  1 drivers
+v0x7f9906605150_0 .net *"_s39", 0 0, L_0x7f9906606c10;  1 drivers
+v0x7f9906605200_0 .net *"_s4", 0 0, L_0x7f9906605ec0;  1 drivers
+v0x7f99066052b0_0 .net *"_s41", 0 0, L_0x7f9906606d50;  1 drivers
+v0x7f9906605360_0 .net *"_s43", 0 0, L_0x7f9906606e30;  1 drivers
+v0x7f99066054f0_0 .net *"_s46", 0 0, L_0x7f9906606ee0;  1 drivers
+v0x7f9906605580_0 .net *"_s48", 0 0, L_0x7f9906606500;  1 drivers
+v0x7f9906605630_0 .net *"_s50", 0 0, L_0x7f99066070c0;  1 drivers
+v0x7f99066056e0_0 .net *"_s54", 0 0, L_0x7f99066074d0;  1 drivers
+v0x7f9906605790_0 .net *"_s56", 0 0, L_0x7f99066075b0;  1 drivers
+v0x7f9906605840_0 .net *"_s6", 0 0, L_0x7f9906605fe0;  1 drivers
+v0x7f99066058f0_0 .net *"_s8", 0 0, L_0x7f9906606100;  1 drivers
+v0x7f99066059a0_0 .net "a", 7 0, v0x7f9906605c00_0;  1 drivers
+v0x7f9906605a50_0 .net "b", 7 0, v0x7f9906605cd0_0;  1 drivers
+v0x7f9906605b00_0 .net "out", 7 0, L_0x7f9906607270;  alias, 1 drivers
+L_0x7f9906605ec0 .part v0x7f9906605c00_0, 1, 1;
+L_0x7f9906605fe0 .part v0x7f9906605cd0_0, 1, 1;
+L_0x7f9906606170 .part v0x7f9906605c00_0, 0, 1;
+L_0x7f9906606250 .part v0x7f9906605cd0_0, 0, 1;
+L_0x7f9906606420 .part v0x7f9906605c00_0, 2, 1;
+L_0x7f99066065b0 .part v0x7f9906605cd0_0, 2, 1;
+L_0x7f9906606740 .part v0x7f9906605c00_0, 3, 1;
+L_0x7f9906606860 .part v0x7f9906605cd0_0, 3, 1;
+L_0x7f99066069b0 .part v0x7f9906605c00_0, 4, 1;
+L_0x7f9906606ae0 .part v0x7f9906605cd0_0, 4, 1;
+L_0x7f9906606c10 .part v0x7f9906605c00_0, 5, 1;
+L_0x7f9906606d50 .part v0x7f9906605cd0_0, 5, 1;
+L_0x7f9906606ee0 .part v0x7f9906605c00_0, 6, 1;
+L_0x7f9906606500 .part v0x7f9906605cd0_0, 6, 1;
+LS_0x7f9906607270_0_0 .concat8 [ 1 1 1 1], L_0x7f9906606100, L_0x7f9906605df0, L_0x7f9906606330, L_0x7f99066066d0;
+LS_0x7f9906607270_0_4 .concat8 [ 1 1 1 1], L_0x7f9906606940, L_0x7f9906606b80, L_0x7f9906606e30, L_0x7f99066070c0;
+L_0x7f9906607270 .concat8 [ 4 4 0 0], LS_0x7f9906607270_0_0, LS_0x7f9906607270_0_4;
+L_0x7f99066074d0 .part v0x7f9906605c00_0, 7, 1;
+L_0x7f99066075b0 .part v0x7f9906605cd0_0, 7, 1;
+    .scope S_0x7f9906504d30;
+T_0 ;
+    %vpi_call 2 12 "$display", "Simulation running..." {0 0 0};
+    %vpi_call 2 13 "$dumpfile", "xnor_t8bit.vcd" {0 0 0};
+    %vpi_call 2 14 "$dumpvars", 32'sb00000000000000000000000000000000, S_0x7f9906504e90 {0 0 0};
+    %vpi_call 2 15 "$dumpvars", 32'sb00000000000000000000000000000001, v0x7f9906605c00_0, v0x7f9906605cd0_0, v0x7f9906605d60_0 {0 0 0};
+    %vpi_call 2 17 "$monitor", "%b XNOR %b  = %b", v0x7f9906605c00_0, v0x7f9906605cd0_0, v0x7f9906605d60_0 {0 0 0};
+    %delay 0, 0;
+    %pushi/vec4 255, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 74, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 255, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 255, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 129, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 85, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 170, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 132, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 64, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 136, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 133, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %pushi/vec4 144, 0, 8;
+    %store/vec4 v0x7f9906605c00_0, 0, 8;
+    %pushi/vec4 151, 0, 8;
+    %store/vec4 v0x7f9906605cd0_0, 0, 8;
+    %delay 50, 0;
+    %vpi_call 2 26 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "xnor_t8bit.v";
+    "./xnor_8bit.v";

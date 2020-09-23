@@ -1,0 +1,299 @@
+$date
+	Fri May 15 22:39:47 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comp_8bit_t $end
+$scope module a1 $end
+$var wire 1 ! A_EQ_B $end
+$var wire 1 " A_GT_B $end
+$var wire 1 # A_LT_B $end
+$var wire 8 $ a [7:0] $end
+$var wire 8 % b [7:0] $end
+$var wire 1 & gt_out $end
+$var wire 1 ' lt_out $end
+$var wire 1 ( z_out $end
+$var wire 1 ) y_out $end
+$var wire 1 * x_out $end
+$var wire 1 + r_out $end
+$var wire 1 , n_out $end
+$var wire 1 - m_out $end
+$scope module a1 $end
+$var wire 1 ( A_EQ_B $end
+$var wire 1 * A_GT_B $end
+$var wire 1 ) A_LT_B $end
+$var wire 4 . a [3:0] $end
+$var wire 1 / a0_not $end
+$var wire 1 0 a1_not $end
+$var wire 1 1 a2_not $end
+$var wire 1 2 a3_not $end
+$var wire 4 3 b [3:0] $end
+$var wire 1 4 b0_not $end
+$var wire 1 5 b1_not $end
+$var wire 1 6 b2_not $end
+$var wire 1 7 b3_not $end
+$var wire 1 8 t_out $end
+$var wire 1 9 x_out $end
+$var wire 1 : y_out $end
+$var wire 1 ; z_out $end
+$var wire 8 < w [7:0] $end
+$var wire 3 = n [2:0] $end
+$var wire 5 > m [4:0] $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 + A_EQ_B $end
+$var wire 1 - A_GT_B $end
+$var wire 1 , A_LT_B $end
+$var wire 4 ? a [3:0] $end
+$var wire 1 @ a0_not $end
+$var wire 1 A a1_not $end
+$var wire 1 B a2_not $end
+$var wire 1 C a3_not $end
+$var wire 4 D b [3:0] $end
+$var wire 1 E b0_not $end
+$var wire 1 F b1_not $end
+$var wire 1 G b2_not $end
+$var wire 1 H b3_not $end
+$var wire 1 I t_out $end
+$var wire 1 J x_out $end
+$var wire 1 K y_out $end
+$var wire 1 L z_out $end
+$var wire 8 M w [7:0] $end
+$var wire 3 N n [2:0] $end
+$var wire 5 O m [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp_8bit_t $end
+$var reg 8 P a [7:0] $end
+$upscope $end
+$scope module comp_8bit_t $end
+$var reg 8 Q b [7:0] $end
+$upscope $end
+$scope module comp_8bit_t $end
+$var wire 1 " A_GT_B $end
+$upscope $end
+$scope module comp_8bit_t $end
+$var wire 1 # A_LT_B $end
+$upscope $end
+$scope module comp_8bit_t $end
+$var wire 1 ! A_EQ_B $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000 Q
+b11110 P
+b10000 O
+b0 N
+b101000 M
+0L
+0K
+1J
+1I
+0H
+1G
+1F
+1E
+b1000 D
+0C
+0B
+0A
+1@
+b1110 ?
+b1011 >
+b0 =
+b10 <
+1;
+1:
+19
+08
+17
+16
+15
+14
+b0 3
+12
+11
+10
+0/
+b1 .
+1-
+0,
+0+
+1*
+0)
+0(
+0'
+0&
+b1000 %
+b11110 $
+0#
+1"
+0!
+$end
+#50
+1#
+0"
+1)
+0*
+0-
+0J
+1,
+b1 =
+b0 N
+b1010 >
+b0 O
+04
+0G
+0F
+1/
+b1 <
+1C
+1B
+1A
+b1010100 M
+b1 3
+b1110 D
+b0 .
+b0 ?
+b11110 %
+b11110 Q
+b0 $
+b0 P
+#100
+1"
+1&
+1(
+0#
+0)
+1-
+0+
+b0 O
+18
+b0 =
+0J
+0,
+0K
+0L
+b0 <
+1H
+1G
+1F
+b10101000 M
+0/
+0C
+0B
+0A
+b0 D
+b1 .
+b1110 ?
+b10000 %
+b10000 Q
+b11110 $
+b11110 P
+#150
+0"
+0&
+0(
+1#
+1)
+08
+b1 =
+b1 <
+0G
+1/
+1B
+b10011000 M
+b100 D
+b0 .
+b1010 ?
+b10100 %
+b10100 Q
+b1010 $
+b1010 P
+#200
+1,
+1"
+0!
+1*
+0(
+0#
+b10 N
+0)
+b1011 >
+b1000 O
+0+
+08
+b0 =
+1K
+1J
+0-
+14
+b10 <
+1G
+0F
+0/
+1C
+1A
+b100 M
+b0 3
+b10 D
+b1 .
+b0 ?
+b10 %
+b10 Q
+b10000 $
+b10000 P
+#250
+b0 O
+0J
+1L
+b0 N
+0H
+1F
+b1000000 M
+b1000 D
+b1000 %
+b1000 Q
+#300
+1!
+1(
+0"
+0*
+18
+b1010 >
+b1010 O
+1+
+1J
+0,
+b0 <
+04
+1H
+b0 M
+b1 3
+b0 D
+b10000 %
+b10000 Q
+#350
+1!
+0"
+1+
+0&
+0-
+1L
+b1010 O
+0F
+0A
+b0 M
+b10 D
+b10 ?
+b10010 %
+b10010 Q
+b10010 $
+b10010 P
+#400
